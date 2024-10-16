@@ -41,3 +41,12 @@ https://github.com/roboflow/supervision
 6. If you want to visualize the trajectories from a CSV file without reprocessing the video, provide the path to the CSV file:
     ```bash
     python main.py --csv_file data/out/trajectories.csv
+
+
+### Future Improvements
+
+- **Enhance tracking accuracy** by implementing Kalman filtering for better vehicle tracking.
+- **Optimize performance** to improve real-time processing speed.
+- **Add the ability to define entry and exit zones** to count the number of vehicles following specific patterns.
+- **Integrate additional analytics features** for deeper insights into traffic patterns.
+- **Perform testing on various road conditions** to ensure robustness and reliability.
